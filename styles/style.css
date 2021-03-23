@@ -18,8 +18,9 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    font-family:'Times New Roman', Times, serif;
+    
+    background-color: #0d573b;
 }
 
 main {
@@ -63,15 +64,18 @@ footer {
 
 h2 {
     font-size: 1.8rem;
-    font-weight: bold;
+    font-weight: light;
+    color: white
 }
 
-.gutter-right {
-    margin-right: 20px;
-}
+
 
 .main-logo {
-    animation: pulse 5s infinite ease-in-out;
+
+}
+
+img {
+    width: 600px;
 }
 
 header img {
@@ -81,11 +85,11 @@ header img {
 
 
 content {
-    width: 80%;
+    width: 100%;
 }
 
 p {
-    margin: var(--gutter);
+ 
 }
   
 footer {
