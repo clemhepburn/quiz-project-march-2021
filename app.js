@@ -34,10 +34,11 @@ button.addEventListener('click', () => {
 
     //displaying the result message
    
-    if (score > 3) {
-        resultsDiv.textContent = resultsString;
-    } else {
+    if (score < 3) {
         resultsDiv.textContent = badResultsString;
+        
+    } else {
+        resultsDiv.textContent = resultsString;
     }
 
 
