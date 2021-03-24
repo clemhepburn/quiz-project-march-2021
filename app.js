@@ -30,9 +30,15 @@ button.addEventListener('click', () => {
 
     //the result message
     const resultsString = name + ', you got ' + score + ' out of 3. You have great taste, and I would love to have lunch again.';
+    const badResultsString = name + ', you have no taste, and I dont want to go to lunch again.';
 
     //displaying the result message
-    resultsDiv.textContent = resultsString;
+   // resultsDiv.textContent = resultsString;
+    if (score > 3) {
+        resultsDiv.textContent = resultsString;
+    } else {
+        resultsDiv.textContent = badResultsString;
+    }
 
 
 
