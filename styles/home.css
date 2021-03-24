@@ -1,8 +1,10 @@
 /* add home page styles here */
 
+
 body {
  background-color: #0d573b;
  font-family: 'Times New Roman', Times, serif;
+ color: white;
 
 }
 
@@ -26,6 +28,7 @@ h1 {
     font-size: 3rem;
 }
 
+
 h2 {
     font-weight: normal;
     color: white;
@@ -45,3 +48,4 @@ h2 {
 .walk {
     width: 800px;
 }
+
