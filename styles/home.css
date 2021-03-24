@@ -35,6 +35,13 @@ h2 {
 
 }
 
+#results {
+    font-size: 36px;
+    margin: 60px;
+    font-style: italic;
+    color: white;
+}
+
 .walk {
     width: 800px;
 }
